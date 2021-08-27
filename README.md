@@ -3,6 +3,9 @@ Pequeno projeto de acesso a banco de dados com JDBC e padrão de projeto DAO (Da
 
 ## Criação e instanciação da base de dados
 ```sql
+CREATE DATABASE coursejdbc;
+USE coursejdbc;
+
 CREATE TABLE department (
   Id int(11) NOT NULL AUTO_INCREMENT,
   Name varchar(60) DEFAULT NULL,
